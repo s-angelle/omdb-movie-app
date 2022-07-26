@@ -20,7 +20,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const baseUrl = "http://www.omdbapi.com/";
+    const baseUrl = "https://www.omdbapi.com/";
     const apiKey = "?apikey=" + process.env.REACT_APP_API_KEY;
     const query = "&t=";
 
