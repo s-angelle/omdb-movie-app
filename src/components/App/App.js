@@ -40,20 +40,25 @@ function App() {
       <a href="">
         <h1 id="main-app-title">OMDB Movie App</h1>
       </a>
-
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="movie-title">Movie Title : </label>
-        <input
-          type="text"
-          required
-          id="movie-title"
-          value={movieTitle}
-          onChange={handleChange}
-        />
-        <button id="submit-btn" type="submit">
-          Submit
-        </button>
-      </form>
+      <div id="main-form">
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="movie-title">Title: </label>
+          <input
+            type="text"
+            required
+            id="movie-title"
+            value={movieTitle}
+            onChange={handleChange}
+            className="form-control"
+            placeholder="Type Movie Title Here"
+          />
+          <div id="submit-btn-container">
+            <button id="submit-btn" type="submit" className="btn btn-primary">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
 
       <h2 id="movie-title">
         {movieInfo.Title} {movieInfo.Year}
