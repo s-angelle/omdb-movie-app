@@ -1,0 +1,68 @@
+/*  MAIN SETTINGS */
+
+* {
+  background-color: rgb(49, 48, 48);
+  color: rgb(179, 183, 186);
+}
+
+.App {
+  color: rgb(240, 214, 47);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* LINKS */
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(240, 214, 47);
+}
+/*  HEADING SETTINGS */
+
+#main-app-title {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: "Anton", sans-serif;
+  color: rgb(240, 214, 47);
+}
+/* FORM SETTINGS */
+
+form {
+  text-align: center;
+}
+
+form input {
+  padding: 0.3em;
+}
+
+#submit-btn {
+  margin-left: 1%;
+  border-radius: 10%;
+  padding: 0.3em;
+  color: rgb(240, 214, 47);
+}
+
+/* MOVIE INFO SETTINGS */
+
+img {
+  float: left;
+  margin-left: 20%;
+  width: 25%;
+  height: 50%;
+  border-radius: 5%;
+  box-shadow: 0.2rem 0.3rem 1rem;
+}
+
+#movie-title {
+  margin-top: 2%;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.movie-info {
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-left: 50%;
+  text-align: justify;
+  line-height: 2.5rem;
+}
