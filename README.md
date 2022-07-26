@@ -6,6 +6,12 @@ API utilized:
 
 https://imdb-api.com/
 
+## How to Access This Project
+
+This project has been successfully deployed here:
+
+https://omdb-movie-app.vercel.app/
+
 ## Project Goals:
 
 1. Use functional components using the create-react-app
